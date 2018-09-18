@@ -1,9 +1,11 @@
 #READ ME
 
 ##READY FOR REVIEW:
+
 Lab02
 
 Lab03 
 
 ##INCOMPLETE WORK:
+
 Lab04
