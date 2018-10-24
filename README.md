@@ -6,6 +6,10 @@ Lab02
 
 Lab03 
 
-<u> <h2> INCOMPLETE WORK: </h2> </u>
-
 Lab04
+
+Lab05
+
+Lab06
+
+<u> <h2> INCOMPLETE WORK: </h2> </u>
