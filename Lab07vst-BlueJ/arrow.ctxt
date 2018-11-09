@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=arrow
+comment1.params=g
+comment1.target=void\ arrow(java.awt.Graphics)
+comment2.params=g
+comment2.target=void\ arrowHead(java.awt.Graphics)
+comment3.params=g
+comment3.target=void\ arrowBase(java.awt.Graphics)
+numComments=4

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=masonName
+comment1.params=g
+comment1.target=void\ nameInBox(java.awt.Graphics)
+comment2.params=g
+comment2.target=void\ m(java.awt.Graphics)
+comment3.params=g
+comment3.target=void\ a(java.awt.Graphics)
+comment4.params=g
+comment4.target=void\ s(java.awt.Graphics)
+comment5.params=g
+comment5.target=void\ o(java.awt.Graphics)
+comment6.params=g
+comment6.target=void\ n(java.awt.Graphics)
+comment7.params=g
+comment7.target=void\ box(java.awt.Graphics)
+numComments=8
