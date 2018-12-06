@@ -12,4 +12,8 @@ Lab05
 
 Lab06
 
+Lab07
+
+Lab 08
+
 <u> <h2> INCOMPLETE WORK: </h2> </u>
