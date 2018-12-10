@@ -100,6 +100,8 @@ class Palindrome
     public static boolean almostPal(String s)
     {
       String newS = purge(s);
+      if(newS.equals(s))
+        return false;
       return isPal(newS);
     }
 
