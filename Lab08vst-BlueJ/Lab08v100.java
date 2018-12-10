@@ -49,6 +49,8 @@ class Palindrome
         }
         if (rev.equals(s))
             tf = true;
+        if (s.trim().equals(s) || s.equals(" "))
+            return false;
         return tf;
     }  
    
@@ -59,7 +61,8 @@ class Palindrome
      */
    private static boolean isLetter(String s)
    {
-      String[] badChars = new String[] {".",",","/","&","-","_","*","!","^"};
+      String[] badChars = new String[] {"!","@","#","$","%","^","&","*",")","(","-","_","+","=","."
+        ,",","?",";",":","]","[","}","{"," "};
       int i=0;
       boolean tf = true;
       for(i=0;i<badChars.length; i++){
