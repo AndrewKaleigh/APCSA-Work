@@ -43,14 +43,24 @@ class Palindrome
       int counter = 1;
       int l = s.length(); // length of string
       String rev = "";
+      int counter2 = 0;
+      boolean tf2 = false;
       while (counter <= l){
           rev = rev + s.substring(l-counter, (l - counter)+1);
           counter++;
         }
-        if (rev.equals(s))
+        if(rev.equals(s))
             tf = true;
-        if (s.trim().equals(s) || s.equals(" "))
+        if(s.equals(" "))
             return false;
+        if(s.indexOf(" ") > 0)
+            tf = false;
+        while(counter2 != s.length()){
+           tf2 = isLetter(s.substring(counter2,counter2 + 1));
+           if (tf2 == false)
+              tf = false;
+           counter2++;
+        }
         return tf;
     }  
    
@@ -102,8 +112,11 @@ class Palindrome
      */
     public static boolean almostPal(String s)
     {
+      if(isPal(s))
+         return false;
       String newS = purge(s);
-      if(newS.equals(s))
+      newS = newS.trim();
+      if(newS.equals(""))
         return false;
       return isPal(newS);
     }
