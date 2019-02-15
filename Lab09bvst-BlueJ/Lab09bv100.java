@@ -87,18 +87,30 @@ class Rational
     }
     
     public void divide(Rational r1, Rational r2){
-        firstNum = r1.getNum() * r2.getNum();
+        firstNum = r1.getNum() * r2.getDen();
         firstDen = r1.getDen() * r2.getNum();
     }
     
     public void add(Rational r1, Rational r2){
-        firstNum = r1.getNum() + r2.getNum();
-        firstDen = r1.getDen() + r2.getNum();
+        int r1num;
+        int r2num;
+        
+        r1num = r1.getNum() * r2.getDen();
+        r2num = r2.getNum() * r1.getDen();
+        
+        firstNum = r1num + r2num;
+        firstDen = r1.getDen() * r2.getDen();
     }
     
     public void subtract(Rational r1, Rational r2){
-        firstNum = r1.getNum() - r2.getNum();
-        firstDen = r1.getDen() - r2.getNum();
+        int r1num;
+        int r2num;
+        
+        r1num = r1.getNum() * r2.getDen();
+        r2num = r2.getNum() * r1.getDen();
+        
+        firstNum = r1num - r2num;
+        firstDen = r1.getDen() * r2.getDen();
     }
     
     private void getGCF(int n1,int n2)
