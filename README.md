@@ -6,7 +6,9 @@ Lab02
 
 Lab03 
 
-Lab04
+Lab04a
+
+Lab4b
 
 Lab05
 
@@ -14,6 +16,16 @@ Lab06
 
 Lab07
 
-Lab 08
+Lab08
+
+Lab09a
+
+Lab09b
+
+Lab10
+
+Lab11a
+
+Lab11b
 
 <u> <h2> INCOMPLETE WORK: </h2> </u>
