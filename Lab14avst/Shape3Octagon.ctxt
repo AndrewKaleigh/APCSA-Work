@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Shape3Octagon
+comment1.params=g
+comment1.target=void\ drawShape(java.awt.Graphics)
+numComments=2
